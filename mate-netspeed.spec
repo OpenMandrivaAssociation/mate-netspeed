@@ -1,11 +1,11 @@
 Summary:	MATE applet that shows traffic on a network device
 Name:		mate-netspeed
-Version:	1.2.0
+Version:	1.4.0
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 URL:		http://mate-desktop.org
-Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
+Source0:	http://pub.mate-desktop.org/releases/%{lua: print (string.match(rpm.expand("%{version}"),"%d+.%d+"))}/%{name}-%{version}.tar.xz
 
 BuildRequires:	docbook-dtd44-xml
 BuildRequires:	intltool
@@ -39,6 +39,11 @@ NOCONFIGURE=1 ./autogen.sh
 %{_libexecdir}/mate_netspeed_applet2
 %{_libexecdir}/matecomponent/servers/*
 %{_iconsdir}/hicolor/*/*/*
-# mate help files
-%{_datadir}/mate/help
+
+
+
+%changelog
+* Thu Jun 07 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 803059
+- imported package mate-netspeed
 
