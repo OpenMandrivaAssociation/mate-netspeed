@@ -3,7 +3,7 @@
 Summary:	MATE applet that shows traffic on a network device
 Name:		mate-netspeed
 Version:	1.8.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 Url:		http://mate-desktop.org
