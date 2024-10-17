@@ -6,7 +6,7 @@ Version:	1.8.0
 Release:	3
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
-Url:		http://mate-desktop.org
+Url:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	mate-common
