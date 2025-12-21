@@ -8,6 +8,11 @@ Group:		Graphical desktop/GNOME
 License:	GPLv2+
 Url:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	mate-common
 BuildRequires:	yelp-tools
